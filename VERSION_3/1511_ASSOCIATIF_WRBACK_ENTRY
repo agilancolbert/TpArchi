@@ -1,0 +1,27 @@
+Execution d'acc�s al�atoire avec cache
+cache  stats: 
+reads: 1000000 (0% hits), time = 59951950
+writes: 0, time = 0
+total: 1000000 (0% hits), time = 59951950
+memory stats: 
+reads: 999039, time = 49951950
+writes: 0, time = 0
+total: 999039, time = 49951950
+
+Execution du tri s�lection sans cache
+array=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+memory stats: 
+reads: 96, time = 4800
+writes: 18, time = 900
+total: 114, time = 5700
+
+Execution du tri s�lection avec cache
+array=[10, 9, 8, 7, 6, 5, 4, 2, 3, 1]
+cache  stats: 
+reads: 96 (89% hits), time = 1460
+writes: 18 (100% hits), time = 180
+total: 114 (91% hits), time = 1640
+memory stats: 
+reads: 10, time = 500
+writes: 0, time = 0
+total: 10, time = 500

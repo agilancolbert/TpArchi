@@ -1,7 +1,7 @@
 package util;
 
 public class Utils {
-
+// test
   public static int log(int value) {
     if (value <= 0) {
       return -1;
